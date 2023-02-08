@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="nav">
+           <div class="logo">
+                Ritik
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="registerpanel">
+        <form action="/dataentry.html" id="form">
+            <h1>Register</h1>
+            <span>
+                Email: <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </span>
+            <span> Username: <input type="text" name="username" id="username" placeholder="Enter Username">
+            </span>
+           
+            <span>
+                Password: <input type="password" name="password" id="password" placeholder="Enter Password">
+            </span>
+            <span> <button action="/dataentry.html" class="submit" type="submit" name="submit" id="submit">Signup</button>
+            </span>
+            <div>
+                <span>
+                    Already have an account? <a href="login.html">Login</a>
+                </span>
+            </div>
+        </form>
+        <div class="homepgimage">
+            <img class="homeimg" src="https://png.pngtree.com/png-vector/20190324/ourlarge/pngtree-vector-male-student-icon-png-image_862310.jpg" alt="" srcset="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
